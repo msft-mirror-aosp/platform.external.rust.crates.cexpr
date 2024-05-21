@@ -45,7 +45,7 @@ rust_library {
     crate_name: "cexpr",
     cargo_env_compat: true,
     cargo_pkg_version: "0.6.0",
-    srcs: ["src/lib.rs"],
+    crate_root: "src/lib.rs",
     edition: "2018",
     rustlibs: ["libnom"],
     apex_available: [
